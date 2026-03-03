@@ -6,11 +6,6 @@
         model-viewer::part(interaction-prompt) { 
             display: none !important; 
         }
-        model-viewer {
-            --interaction-prompt-tap-message: none;
-            --interaction-prompt-touch-message: none;
-            --interaction-prompt-mouse-message: none;
-        }
     </style>
 </head>
 <body>
@@ -19,8 +14,7 @@
         src="model.glb" 
         ar 
         camera-controls 
-        interaction-prompt="false"
-        touch-action="pan-x pan-y pinch-zoom"
+        interaction-prompt=""
         style="width: 100%; height: 95vh;">
     </model-viewer>
     
